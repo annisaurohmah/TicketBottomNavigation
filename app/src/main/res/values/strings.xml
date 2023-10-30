@@ -1,0 +1,117 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name">TicketFlixApp</string>
+    <string name="desc_text">The film journeys alongside an unlikely pair, Ember and Wade, in a city where fire-, water-, land- and air-residents live together. The fiery young woman and the go-with-the-flow guy are about to discover something elemental: how much they actually have in common</string>
+
+    <style name="text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="title_14">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="title_20">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+
+    <style name="WhiteSearchViewTheme" parent="Theme.AppCompat">
+        <!-- Customize the textColor and cursorColor -->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item> <!-- Set hint text color -->
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <array name="city_array">
+        <item>Jakarta</item>
+        <item>Yogyakarta</item>
+        <item>Bandung</item>
+        <item>Medan</item>
+        <item>Semarang</item>
+        <item>Palembang</item>
+        <item>Makassar</item>
+        <item>Denpasar</item>
+        <item>Batam</item>
+        <item>Pontianak</item>
+    </array>
+
+    <array name="cinema_yogyakarta_array">
+        <item>Ambarrukmo XXI</item>
+        <item>Sleman City Hall CGV</item>
+        <item>Plaza Ambarukmo Blitz</item>
+        <item>CGV Hartono Mall Yogyakarta</item>
+        <item>XXI Galeria Mall Yogyakarta</item>
+        <item>CGV Jogja City Mall</item>
+    </array>
+
+    <array name="studio_type_array">
+        <item>Regular 2D</item>
+        <item>3D</item>
+        <item>Premiere</item>
+        <item>IMAX</item>
+        <item>4DX</item>
+    </array>
+
+    <array name="items_A_to_L_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+    </array>
+
+    <array name="numbers_1_to_10_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </array>
+
+    <array name="payment_methods_array">
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>PayPal</item>
+        <item>Bank Transfer</item>
+        <item>Google Pay</item>
+    </array>
+
+    <string-array name="bank_types_array">
+        <item>Mandiri</item>
+        <item>BSI</item>
+        <item>BRI</item>
+        <item>Danamon</item>
+    </string-array>
+
+
+
+
+    <style name="MyTextInputEditText" parent="text">
+        <!-- Set text color to white -->
+        <item name="android:paddingStart">24dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:paddingTop">16dp</item>
+    </style>
+
+</resources>
